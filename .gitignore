@@ -1,0 +1,20 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model weights (do not commit binary checkpoints)
+models/*.pt
+*.pt
+
+# Generated application files
+output/
+temp/
+Captured_Image/
+*.sgf
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
