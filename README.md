@@ -21,6 +21,20 @@ Input video → stable-frame selection → perspective correction → stone dete
 → grid mapping → board-state tracking → SGF / board-image export
 ```
 
+## Demo
+
+### Desktop application workflow
+
+The interface displays the reconstructed board, generated SGF content, move history, and processing controls in one workspace.
+
+![Desktop application workflow](docs/assets/application-workflow.png)
+
+### Board reconstruction
+
+The application maps detected stones from a physical Go board image to positions on a 19×19 digital board.
+
+![Input board and reconstructed board](docs/assets/board-reconstruction.png)
+
 ## Repository structure
 
 ```text
@@ -31,6 +45,7 @@ Input video → stable-frame selection → perspective correction → stone dete
 ├── Chess_Recognition/         # Detection, grid mapping, SGF and game-state logic
 ├── Preprocess/                # Frame extraction and perspective correction
 ├── Test_Image/                # Sample images
+├── docs/assets/                # Demo screenshots
 ├── yaml/                      # Experimented YOLO model configurations
 └── models/                    # Local model checkpoints (not committed)
 ```
