@@ -1,5 +1,7 @@
 # Go Board Recognition
 
+English | [简体中文](README.zh-CN.md)
+
 An end-to-end computer vision application for reconstructing Go games from video. The project detects stones on a 19×19 board, tracks board states over time, and exports the recognised game to Smart Game Format (SGF).
 
 Developed as an undergraduate Computer Science capstone project.
@@ -71,7 +73,7 @@ The application uses CUDA when available and otherwise falls back to CPU.
 
 ## Notes
 
-- Source-code comments and user-interface text are primarily in Chinese; this README is provided in English for accessibility.
+- Source-code comments and user-interface text are primarily in Chinese; documentation is available in English and Simplified Chinese.
 - Model weights and generated outputs are intentionally excluded from version control.
 - The YAML files record model-architecture experiments. Check the applicable third-party licences before reusing or distributing derived configurations or weights.
 
@@ -79,4 +81,4 @@ The application uses CUDA when available and otherwise falls back to CPU.
 
 - Add a small labelled evaluation set and report detection / board-state accuracy.
 - Add automated tests for grid mapping and SGF generation.
-- Provide a short demonstration video and screenshots of the GUI.
+- Provide a short demonstration video covering video input through SGF export.
